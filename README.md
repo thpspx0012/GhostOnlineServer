@@ -1,6 +1,6 @@
 # Ghost Online Server Emulator
 
-This repository is Thailand Classic Ghost Online Server Emulator. Some function or feature might be not working.
+This repository is a Classic Thailand Ghost Online Server Emulator. Some function or feature might be not working.
 To use this server file you must have Supported Game Client, The latest Game Client isn't Support and can't used with this server file
 
 # Feature
