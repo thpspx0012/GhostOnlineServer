@@ -27,4 +27,4 @@ To use this server file you must have Supported Game Client, The latest Game Cli
 
 ## Donation
 
-For Support this project you can to donate at : [Ko-fi](https://ko-fi.com/pleumkungz)
+For Support this project you can donate at : [Ko-fi](https://ko-fi.com/pleumkungz)
