@@ -107,13 +107,13 @@ namespace Server.Common.Security
                 }
             }
             //Log.Hex("Received packet from : ", result);
-            result = Decrypt2(result, len);
+            result = LZFDecompress(result, len);
             return result;
         }
 
 
 
-        public byte[] Decrypt2(byte[] encryptPacket, int length)
+        public byte[] LZFDecompress(byte[] encryptPacket, int length)
         {
             int i = 0; // v5
             int j = 0; // v7
