@@ -7,9 +7,7 @@ namespace Server.Ghost
 {
     public static class LoginPacket
     {
-        /* NetCafe
-         * 會員於特約網咖連線
-         */
+        
         public static void Login_Ack(Client c, ServerState.LoginState state, short encryptKey = 0, bool netCafe = false)
         {
             using (var plew = new OutPacket(LoginServerOpcode.LOGIN_ACK))
@@ -64,7 +62,7 @@ namespace Server.Ghost
             {
                 plew.WriteByte((byte)state);
                 plew.WriteString(ServerConstants.SERVER_IP);
-                plew.WriteInt(15123 + c.World.ID);
+                plew.WriteInt(15123);
                 plew.WriteInt(15199);
 
                 c.Send(plew);
